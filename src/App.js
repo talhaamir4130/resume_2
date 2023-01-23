@@ -1,13 +1,11 @@
-import logo from './assets/images/logo.svg';
 import './styles/App.css';
+import React from 'react';
+import A4Page from './components/A4Page';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>RESUME TEMPLATE</p>
-      </header>
+    <div>
+      <A4Page />
     </div>
   );
 }
